@@ -1,28 +1,29 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';		// BrowserRouter(Contenedor): Permite crear URLs en nuestra aplicación. Route(Rutas): Permite especificar Rutas
-import 'bootstrap/dist/css/bootstrap.min.css';							// Importa Hojas de estilo de Bootstrap
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter as Router, Route} from "react-router-dom"; 
+import NavBarra from "./components/NavBarra"
 
-import Navigation from './components/Navigation';
-import NotesList from './components/NotesList';
-import CreateNote from './components/CreateNote';
-import CreateUser from './components/CreateUser'
+import Home from "./MainComponents/Home"; 
+import Aerolineas from "./MainComponents/Aerolineas"
+import Hoteles from "./MainComponents/Hoteles"
+import Paquetes from "./MainComponents/Paquetes"
+import Tiquetes from "./MainComponents/Tiquetes"
+
 
 function App() {
-  return (
-    <Router>
-		<Navigation/>
-		<div className="container p-4">
-			<h1>Notes App</h1>
-			<h3>MERN Stack (API RestFul)</h3>
-			{/** Creamos las rutas para nuestros componentes (exact: Muestra exactamente el componente que conincide con la ruta, evita que se muestre en las otras rutas) */}
-			<Route path="/" exact component={ NotesList } />
-			<Route path="/edit/:id" component={ CreateNote } />
-			<Route path="/create" component={ CreateNote } />
-			<Route path="/user" component={ CreateUser } />
-		</div>
-	</Router>
-  );
+    return (
+        <Router> 
+            <div className='contenedor'> 
+                <NavBarra/> 
+                <Route path="/"          exact component={Home}/>
+                <Route path="/aerolineas"      component={Aerolineas}/>
+                <Route path="/hoteles"         component={Hoteles}/>
+                <Route path="/paquetes"        component={Paquetes}/>
+                <Route path="/tiquetes"        component={Tiquetes}/>
+            </div>
+        </Router>
+    ); 
 }
 
-export default App;
+export default App; 

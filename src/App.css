@@ -1,0 +1,14 @@
+.App{ 
+  display: flex; 
+  flex-direction: column; 
+  overflow: auto;
+  height: 100vh;
+  width: 100%; 
+}
+.App-Box{
+  width: 100%; 
+  flex: 1; 
+}
+.marginTopMainContainer{
+  margin-top: 100px;
+}

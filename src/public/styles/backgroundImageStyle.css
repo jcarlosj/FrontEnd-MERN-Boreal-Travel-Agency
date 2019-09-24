@@ -1,0 +1,5 @@
+.background-header-img{ 
+    width: 100%; 
+    overflow: auto;
+    flex: 1; 
+}

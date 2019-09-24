@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 
 function NavBarra() {
     return (
-  
         <div className="mainGrid"> 
             <header className="menu-superior w-100">
             <nav className="navbar navbar-expand-lg">

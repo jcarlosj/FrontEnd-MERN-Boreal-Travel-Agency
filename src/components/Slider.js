@@ -63,7 +63,7 @@ function Slider() {
                 </div>            
                 <section className="row justify-content-center section-atracciones mt-5">
                 <div className="col-md-10 text-center">
-                    <p>
+                    <h6>
                         Dependiendo de la temporada del año, tu podrás disfrutar diferentes atracciones turísticas, que
                         te ofrecemos en nuestros paquetes
                         variados como a castillos, catedrales, museos, motos de nieve, tures en bicicleta, glaciares,
@@ -72,7 +72,7 @@ function Slider() {
                         Desde la conciencia ecológica que marca la diferencia de nuestra agencia de viajes Boreal, cada
                         paquete está enmarcado a lugares
                         donde ya hay estándares de sustentabilidad.
-                    </p>
+                    </h6>
                 </div>
             </section>
         </div>

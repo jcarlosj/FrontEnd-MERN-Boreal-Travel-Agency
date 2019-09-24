@@ -1,10 +1,11 @@
 import React from 'react'
 import "../public/styles/login.css"
+
 function Login() {
     return (
-        <div className="App">
-   
+        <div className="mainContainer">   
             <div class="container">
+
                 <div class="d-flex justify-content-center h-100">
                     <div class="card">
                         <div class="card-header">

@@ -2,15 +2,7 @@
 
 
 
-.container{
-    height: 100%;
-    align-content: center;
-    /* background-image:url('../imagenes/img_carrusel/imagen1.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    font-family: 'Numans', sans-serif;
-}
+
 
 .card{
 height: 370px;
@@ -83,4 +75,19 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+
+.mainContainer{ 
+    background-image: url("../imagenes/imagen-header-borrador.png"); 
+    width: 100%; 
+    height: 120vh; 
+}
+.container{
+    height: 100%;
+    align-content: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Numans', sans-serif;
 }

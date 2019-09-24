@@ -7,6 +7,13 @@ export default class CreateVuelo extends Component {
     state = {
         vuelos: [],
         matricula: '',
+        duracion: '',
+        codigo_iata_origen: '',
+        codigo_iata_destino: '',
+        aeropuerto_origen: '',
+        aeropuerto_destino: '',
+        ciudad_origen: '',
+        ciudad_destino: '',
         editing: false          // Flag identificar cuando editar
     }
 
@@ -54,6 +61,14 @@ export default class CreateVuelo extends Component {
         
         const nuevoVuelo = {
             matricula: this .state .matricula,
+            duracion: this .state .duracion,
+            codigo_iata_origen: this .state .codigo_iata_origen,
+            codigo_iata_destino: this .state .codigo_iata_destino,
+            aeropuerto_origen: this .state .aeropuerto_origen,
+            aeropuerto_destino: this .state .aeropuerto_destino,
+            ciudad_origen: this .state .ciudad_origen,
+            ciudad_destino: this .state .ciudad_destino,
+
         }
 
         // Valida estado de edicion
@@ -89,6 +104,93 @@ export default class CreateVuelo extends Component {
                                     required
                                 />
                             </div>
+                            <div className="form-group">
+                                <input 
+                                    className="form-control" 
+                                    type="text" 
+                                    name="duracion" 
+                                    value={ this .state .duracion }
+                                    onChange={ this .onChangeFormFieldsValue }
+                                    placeholder="Duración" 
+                                    required
+                                />
+                            </div>
+                            <fieldset>
+                                <legend>Origen</legend>
+
+                                <div className="form-group">
+                                    <input 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="codigo_iata_origen" 
+                                        value={ this .state .codigo_iata_origen }
+                                        onChange={ this .onChangeFormFieldsValue }
+                                        placeholder="Código IATA" 
+                                        required
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <input 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="aeropuerto_origen" 
+                                        value={ this .state .aeropuerto_origen }
+                                        onChange={ this .onChangeFormFieldsValue }
+                                        placeholder="Aeropuerto" 
+                                        required
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <input 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="ciudad_origen" 
+                                        value={ this .state .ciudad_origen }
+                                        onChange={ this .onChangeFormFieldsValue }
+                                        placeholder="Ciudad" 
+                                        required
+                                    />
+                                </div>
+                            </fieldset>
+                            
+                            <fieldset>
+                                <legend>Destino</legend>
+
+                                <div className="form-group">
+                                    <input 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="codigo_iata_destino" 
+                                        value={ this .state .codigo_iata_destino }
+                                        onChange={ this .onChangeFormFieldsValue }
+                                        placeholder="Código IATA" 
+                                        required
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <input 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="aeropuerto_destino" 
+                                        value={ this .state .aeropuerto_destino }
+                                        onChange={ this .onChangeFormFieldsValue }
+                                        placeholder="Aeropuerto" 
+                                        required
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <input 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="ciudad_destino" 
+                                        value={ this .state .ciudad_destino }
+                                        onChange={ this .onChangeFormFieldsValue }
+                                        placeholder="Ciudad" 
+                                        required
+                                    />
+                                </div>
+                            </fieldset>
+                            
 
                             <button type="submit" className="btn btn-primary">Guardar</button>
                         </form>

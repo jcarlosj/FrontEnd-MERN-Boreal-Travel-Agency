@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';							// Importa Hojas de estilo 
 import './App.css';
 
 import Navigation from './components/Navigation';
+import CrearVuelo from './components/vuelos/crear-vuelo.component';
+import ListarVuelos from './components/vuelos/lista-vuelos.component';
 import NotesList from './components/NotesList';
 import CreateNote from './components/CreateNote';
 import CreateUser from './components/CreateUser'
@@ -13,9 +15,9 @@ function App() {
     <Router>
 		<Navigation/>
 		<div className="container p-4">
-			<h1>Notes App</h1>
-			<h3>MERN Stack (API RestFul)</h3>
 			{/** Creamos las rutas para nuestros componentes (exact: Muestra exactamente el componente que conincide con la ruta, evita que se muestre en las otras rutas) */}
+			<Route path="/vuelos/" exact component={ ListarVuelos } />
+			<Route path="/vuelos/create" component={ CrearVuelo } />
 			<Route path="/" exact component={ NotesList } />
 			<Route path="/edit/:id" component={ CreateNote } />
 			<Route path="/create" component={ CreateNote } />

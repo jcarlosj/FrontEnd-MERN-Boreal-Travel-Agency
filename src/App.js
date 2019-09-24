@@ -9,7 +9,8 @@ import Aerolineas from "./MainComponents/Aerolineas"
 import Hoteles from "./MainComponents/Hoteles"
 import Paquetes from "./MainComponents/Paquetes"
 import Tiquetes from "./MainComponents/Tiquetes"
-
+import Login from  "./MainComponents/Login"
+import Registro from "./MainComponents/Registro"
 
 function App() {
     return (
@@ -21,6 +22,8 @@ function App() {
                 <Route path="/hoteles"         component={Hoteles}/>
                 <Route path="/paquetes"        component={Paquetes}/>
                 <Route path="/tiquetes"        component={Tiquetes}/>
+                <Route path="/login"        component={Login}/>
+                <Route path="/registro"        component={Registro}/>
             </div>
         </Router>
     ); 

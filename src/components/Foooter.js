@@ -27,7 +27,7 @@ function Foooter() {
                             </ul>
                         </div>
                         <div className=" col-md-4 col-lg-4">
-                            <img src={require("../public/imagenes/foooter/mapa-footer.png")} alt=""/>
+                            <img src={require("../public/imagenes/foooter/mapa-footer.png")} alt="" className="imgMapaFooter"/>
                         </div>
                     </div>
                     <hr/>

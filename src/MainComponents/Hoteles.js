@@ -16,8 +16,8 @@ function Hoteles() {
                     {/* <Formulario/> 
                     <ImagenConTexto/> 
                     <CarruselKaren/> 
-                    <Paquetes/> 
-                    <Foooter/>  */}
+                    <Paquetes/> */}
+                    <Foooter/>   
              </div> 
        
         </div>

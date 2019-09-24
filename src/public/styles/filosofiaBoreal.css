@@ -1,0 +1,20 @@
+.contenedorPrincipal{
+    display: flex; 
+    flex-direction: row;
+}
+.conceptoFilosofiaBackground{
+    background-image:url('../imagenes//home/lagoPlayaMoradaFucsia.png');
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;
+}
+.whiteColorLetter{
+    color: white; 
+}
+.whiteBackground{ 
+    width: 20%; 
+    background-color: white; 
+}
+.insidePadding{
+    margin: 10px; 
+}

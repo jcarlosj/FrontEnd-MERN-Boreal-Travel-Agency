@@ -125,7 +125,8 @@
   border-radius:100%;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
-  transition:all .2s linear
+  transition:all .2s linear; 
+  
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
@@ -169,7 +170,7 @@
     width: 32px;
 }
 .imgMapaFooter{
-    width: 70%;
+    width: 100%;
 }
 
 .textAlignCenter{

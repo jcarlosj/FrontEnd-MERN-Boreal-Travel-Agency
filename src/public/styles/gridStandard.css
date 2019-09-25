@@ -1,3 +1,7 @@
 .mainGrid{ 
     width: 97%; 
 }
+.backgroundImageConstelacion{ 
+    background-image: url("../imagenes/home/galaxiaMoradaFucsia.png"); 
+    
+}

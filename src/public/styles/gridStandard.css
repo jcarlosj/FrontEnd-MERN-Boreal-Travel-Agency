@@ -1,7 +1,7 @@
 .mainGrid{ 
     width: 97%; 
+    margin: 0 auto; 
 }
 .backgroundImageConstelacion{ 
-    background-image: url("../imagenes/home/galaxiaMoradaFucsia.png"); 
-    
+    background-image: url("../imagenes/foooter/footer-home.png"); 
 }

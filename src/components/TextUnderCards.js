@@ -13,8 +13,7 @@ function TextUnderCards() {
                 <div className="contenedorPrincipal">
                     <div className="col-md-2 concepto-magico mb-4 whiteBackground">
                         <div>                    
-                        <h1 style={{"fontSize":"22px"}}> BOREAL ES LO QUE <br/> NECESITAS, PARA <br/> VIVIR EXPERIENCIAS <br/> NÓRDICAS
-                        </h1>
+                            <h1 style={{"fontSize":"22px", "zIndex":"-1"}}> BOREAL ES LO QUE NECESITAS, PARA  VIVIR EXPERIENCIAS NÓRDICAS</h1>
                         </div>
                         <br/>
                         <div>

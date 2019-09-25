@@ -1,9 +1,9 @@
 import React from 'react'
 import "../public/styles/login.css"
-
+import '../public/styles/lakeBackground.css'
 function Login() {
     return (
-        <div className="mainContainer">   
+        <div className="mainContainer backgroundLakeImage">   
             <div class="container">
 
                 <div class="d-flex justify-content-center h-100">

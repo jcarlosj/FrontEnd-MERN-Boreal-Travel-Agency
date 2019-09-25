@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ThreeCards() {
     return (
-        <div className="mainGrid backgroundImageConstelacion">
+        <div className="mainGrid backgroundImageConstelacionUno">
             <section className="row justify-content-center">
                 <h2 style={{"color":"white"}}>DESTINOS         POPULARES</h2> 
                 <ul className="tarjetas grid cs-style-1 col-12">

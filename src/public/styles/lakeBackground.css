@@ -1,0 +1,5 @@
+.backgroundLakeImage{ 
+    background-image: url("../imagenes/lakeBackground.jpg"); 
+    background-size: cover;
+
+}

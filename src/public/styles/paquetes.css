@@ -1,0 +1,12 @@
+.columnaEstructura{ 
+    margin-top: 80px; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+.elements{
+    width: 100%; 
+    margin: 0 auto; 
+}

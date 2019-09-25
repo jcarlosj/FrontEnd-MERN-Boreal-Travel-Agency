@@ -29,8 +29,15 @@ export default class Navigation extends Component {
                         <li className="nav-item dropdown">
                             <a data-toggle="dropdown" className="nav-link dropdown-toggle" href="#">Notas <b className="caret"></b></a>
                             <ul className="dropdown-menu">					
-                                <li><Link className="dropdown-item" to="/">Notas</Link></li>
+                                <li><Link className="dropdown-item" to="/">Lista Notas</Link></li>
                                 <li><Link className="dropdown-item" to="/create">Crear Nota</Link></li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a data-toggle="dropdown" className="nav-link dropdown-toggle" href="#">Vuelos <b className="caret"></b></a>
+                            <ul className="dropdown-menu">					
+                                <li><Link className="dropdown-item" to="/vuelos">Lista Vuelos</Link></li>
+                                <li><Link className="dropdown-item" to="/vuelos/create">Crear Vuelo</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item active"><a href="#" className="nav-link">Mis Tiquetes</a></li>

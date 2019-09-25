@@ -38,16 +38,11 @@ export default class Navigation extends Component {
                             <ul className="dropdown-menu">					
                                 <li><Link className="dropdown-item" to="/vuelos">Lista Vuelos</Link></li>
                                 <li><Link className="dropdown-item" to="/vuelos/create">Crear Vuelo</Link></li>
+                                <li><Link className="dropdown-item" to="/vuelos/reservas">Reservas</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item active"><a href="#" className="nav-link">Mis Tiquetes</a></li>
                     </ul>
-                    <form className="navbar-form form-inline">
-                        <div className="input-group search-box">								
-                            <input type="text" id="search" className="form-control" placeholder="Search here..." />
-                            <span className="input-group-addon"><i className="material-icons">&#xE8B6;</i></span>
-                        </div>
-                    </form>
                     <ul className="nav navbar-nav navbar-right ml-auto">			
                         <li className="nav-item">
                             <a data-toggle="dropdown" className="nav-link dropdown-toggle" href="#">Login</a>

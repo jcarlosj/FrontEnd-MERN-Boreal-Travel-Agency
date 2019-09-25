@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
 import axios from 'axios';                  // Paquete que permite hacer peticiones HTTP
 //import { format } from 'timeago.js';    // Librería para formatear la fecha 
 

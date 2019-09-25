@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';                  // Paquete que permite hacer peticiones HTTP
+
+import DatePicker from 'react-datepicker';             // Importa código JavaScript de DatePicker para React
 //import { format } from 'timeago.js';    // Librería para formatear la fecha 
 
 export default class ReservarVuelo extends Component {
@@ -11,23 +13,31 @@ export default class ReservarVuelo extends Component {
                 <h3>Reservar Vuelos</h3>
                     <div className="form-row">
                         <div className="col-md-3 mb-3">
-                            <label htmlFor="formGroupExampleInput">Example label</label>
+                            <label htmlFor="formGroupExampleInput">Origen</label>
                             <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Example input" />
                         </div>
                         <div className="col-md-3 mb-3">
-                            <label htmlFor="formGroupExampleInput">Example label</label>
+                            <label htmlFor="formGroupExampleInput">Destino</label>
                             <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Example input" />
                         </div>
                         <div className="col-md-2 mb-3">
-                            <label htmlFor="formGroupExampleInput">Example label</label>
-                            <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Example input" />
+                            <label htmlFor="formGroupExampleInput">Fecha de salida</label>
+                            <DatePicker 
+                                className="form-control" 
+                                //selected={ this .state .date }
+                                //onChange={ this .onChangeDate }
+                            />
                         </div>
                         <div className="col-md-2 mb-3">
-                            <label htmlFor="formGroupExampleInput">Example label</label>
-                            <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Example input" />
+                            <label htmlFor="formGroupExampleInput">Fecha de llegada</label>
+                            <DatePicker 
+                                className="form-control" 
+                                //selected={ this .state .date }
+                                //onChange={ this .onChangeDate }
+                            />
                         </div>
                         <div className="col-md-2 mb-3">
-                            <label htmlFor="">Cantidad Pasajeros</label>
+                            <label htmlFor=""># Pasajeros</label>
                             <select class="custom-select">
                                 <option value=""></option>
                                 <option value="1">1</option>

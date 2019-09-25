@@ -1,10 +1,10 @@
-import React from 'react'
-import "../public/styles/formulario-registrate.css"
-import "../App.css"
+import React from 'react';
+import "../public/styles/formulario-registrate.css";
+import '../public/styles/lakeBackground.css';
 function Registro() {
     return (
-        <div className="container ">
-            <div className="container card">
+        <div className="contenedor backgroundLakeImage">
+            <div className="card">
                 <form className="form-horizontal" role="form">
                     <h3>Registrarse</h3>
                     <div className="form-group">

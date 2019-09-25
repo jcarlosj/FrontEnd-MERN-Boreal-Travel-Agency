@@ -1,15 +1,17 @@
-html,body{
-    background-image: url('../imagenes/img_carrusel/imagen1.jpg');
-    background-size: cover;
+.contenedor{
+    width: 100%; 
+
 }
 
 .card{
     text-align: center;
     height: 100%;
-    margin-top: 50px;
-    width: 70%;
+    width: 60%;
     background-color: rgba(0,0,0,0.5) !important;
-    
+    margin: 0 auto; 
+    padding: 80px 0; 
+    overflow: auto;
+    flex: 1; 
 }
 .App{
     display: flex; 
@@ -28,4 +30,7 @@ html,body{
     justify-items: center;
     align-items: center;
     align-content: center; 
+}
+.form-group{ 
+    margin: auto; 
 }

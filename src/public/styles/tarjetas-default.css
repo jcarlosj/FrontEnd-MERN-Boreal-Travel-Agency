@@ -145,3 +145,8 @@ a:active {
 	}
 
 }
+
+
+.backgroundImageConstelacionUno{ 
+	background-image: url("../imagenes/home/galaxiaMoradaFucsia.png")
+}

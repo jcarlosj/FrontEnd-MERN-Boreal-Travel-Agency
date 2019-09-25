@@ -10,6 +10,8 @@ import NotesList from './components/NotesList';
 import CreateNote from './components/CreateNote';
 import CreateUser from './components/CreateUser'
 
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 function App() {
   return (
     <Router>

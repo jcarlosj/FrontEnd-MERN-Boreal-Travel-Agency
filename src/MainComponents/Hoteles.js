@@ -2,24 +2,28 @@ import React from 'react'
 import "../App.css"
 import Slider from "../components/Slider";
 import Formulario from "../componentsHoteles/Formulario";
-import ImagenConTexto from "../componentsHoteles/ImagenConTexto";
-import CarruselKaren from "../componentsHoteles/CarruselKaren";
-import Paquetes from "../componentsHoteles/Paquetes";
+import HotelIslandia from  "../componentsHoteles/HotelIslandia"
+import HotelDinamarca from  "../componentsHoteles/HotelDinamarca"
+import HotelSuecia from  "../componentsHoteles/HotelSuecia"
+import CarruselComidas from "../componentsHoteles/CarruselComidas";
+import CarruselEventos from "../componentsHoteles/CarruselEventos";
 import Foooter from "../components/Foooter";
+import "../public/styles/paquetes.css"
 
 
 function Hoteles() {
     return (
         <div className="App">
              <div className="marginTopMainContainer"> 
-                    <Slider/>
-                    {/* <Formulario/> 
-                    <ImagenConTexto/> 
-                    <CarruselKaren/> 
-                    <Paquetes/> */}
-                    <Foooter/>   
+                <div className="elements"><Slider/></div>
+                <div className="elements"><Formulario/></div> 
+                <div className="elements"><HotelIslandia/></div>
+                <div className="elements"><HotelDinamarca/></div>                    
+                <div className="elements"><HotelSuecia/></div>
+                <div className="elements"><CarruselComidas/></div>
+                <div className="elements"><CarruselEventos/></div> 
              </div> 
-       
+             <Foooter/> 
         </div>
     )
 }

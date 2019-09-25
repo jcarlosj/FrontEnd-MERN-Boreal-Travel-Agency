@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Foooter() {
     return (
-        <div classNameName="mainGrid ">
+        <div classNameName="mainGrid">
               <footer className="site-footer backgroundImageConstelacion">
                 <div className="container">
                     <div className="row">

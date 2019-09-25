@@ -4,7 +4,7 @@ import '../App.css';
 function Tiquetes() {
     return (
         <div className="App"> 
-            <div className="marginTopMainContainer">>
+            <div className="marginTopMainContainer">
                 <h1>Tiquetes</h1>
             </div>
         </div>

@@ -18,7 +18,7 @@ function App() {
         <Router> 
             <div className='contenedor'> 
                 <NavBarra/> 
-                
+
                 <Route path="/"          exact component={Home}/>
                 <Route path="/aerolineas"      component={Aerolineas}/>
                 <Route path="/hoteles"         component={Hoteles}/>

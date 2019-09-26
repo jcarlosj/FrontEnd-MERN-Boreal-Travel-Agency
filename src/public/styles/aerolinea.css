@@ -3,5 +3,6 @@
 }
 .react-datepicker-wrapper input {
     border-color:#cccccc !important;
+    height: 36px;
 
 }

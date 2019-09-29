@@ -25,7 +25,7 @@ function App() {
                 <Route path="/paquetes"        component={Paquetes}/>
                 <Route path="/tiquetes"        component={Tiquetes}/>
                 <Route path="/login"           component={Login}/>
-                <Route path="/registro"        component={Registro}/>
+                {/* <Route path="/registro"        component={Registro}/> */}
 
                 <Foooter/>
             </div>

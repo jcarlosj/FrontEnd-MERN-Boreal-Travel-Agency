@@ -1,5 +1,7 @@
 import React from 'react'
 import "../App.css"
+
+
 function CarruselEventos() {
     return (
 
@@ -17,7 +19,7 @@ function CarruselEventos() {
             <div class="carousel-item active">
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top" height="70px" src="imagenes/shows_suecia/show_fiesta_walpurguis.jpg"/>
+                  <img class="img-fluid card-img-top" height="70px" src={require("../public/imagenes/hoteles/carruselEventos/show_fiesta_walpurguis.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -35,7 +37,7 @@ function CarruselEventos() {
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top rounded-bottom" height="70px" src="imagenes/shows_suecia/show_midsommar.jpg"/>
+                  <img class="img-fluid card-img-top rounded-bottom" height="70px" src={require("../public/imagenes/hoteles/carruselEventos/show_midsommar.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -54,7 +56,7 @@ function CarruselEventos() {
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top rounded-bottom" height="70px" src="imagenes/shows_suecia/show_semana_medieval.jpg"/>
+                  <img class="img-fluid card-img-top rounded-bottom" height="70px" src={require("../public/imagenes/hoteles/carruselEventos/show_semana_medieval.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -74,7 +76,7 @@ function CarruselEventos() {
             <div class="carousel-item">
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top" height="70px" src="imagenes/shows_suecia/show_festival_libelula.jpg"/>
+                  <img class="img-fluid card-img-top" height="70px" src={require("../public/imagenes/hoteles/carruselEventos/show_festival_libelula.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -90,7 +92,7 @@ function CarruselEventos() {
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top" height="70px" src="imagenes/shows_suecia/show_lucia_fiesta.jpg"/>
+                  <img class="img-fluid card-img-top" height="70px" src={require("../public/imagenes/hoteles/carruselEventos/show_lucia_fiesta.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -108,7 +110,7 @@ function CarruselEventos() {
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top"   src="imagenes/shows_suecia/show_navidad.jpg"/>
+                  <img class="img-fluid card-img-top"   src={require("../public/imagenes/hoteles/carruselEventos/show_navidad.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -127,7 +129,7 @@ function CarruselEventos() {
             <div class="carousel-item">
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top"  src="imagenes/shows_islandia/Þorrablot.jpg"/>
+                  <img class="img-fluid card-img-top"  src={require("../public/imagenes/hoteles/carruselEventos/Þorrablot.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>
@@ -144,7 +146,7 @@ function CarruselEventos() {
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4">
                 {/* <a href="#" onclick={abc(this)} class="slider_info"> */}
-                  <img class="img-fluid card-img-top" src="imagenes/shows_islandia/menningarnott.jpg"/>
+                  <img class="img-fluid card-img-top" src={require("../public/imagenes/hoteles/carruselEventos/menningarnott.jpg")}/>
                   <div class="card-img-overlay t_img">
                     <span class="float-left text-uppercase">article</span>
                     <span class="float-right text-uppercase">2345 views</span>

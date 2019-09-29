@@ -92,7 +92,7 @@ export class Aerolineas extends Component {
 	render() {
 		return (
 			<div className="App">
-				<div className="App-Box">
+				<div className="">
 					<Background />
 				</div>
 				<div className="App-Box">

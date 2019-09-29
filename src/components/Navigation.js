@@ -38,7 +38,7 @@ export default class Navigation extends Component {
                             <ul className="dropdown-menu">					
                                 <li><Link className="dropdown-item" to="/vuelos">Lista Vuelos</Link></li>
                                 <li><Link className="dropdown-item" to="/vuelos/create">Crear Vuelo</Link></li>
-                                <li><Link className="dropdown-item" to="/vuelos/reservas">Reservas</Link></li>
+                                <li><Link className="dropdown-item" to="/vuelos/disponibles">Reservas</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item active"><a href="#" className="nav-link">Mis Tiquetes</a></li>

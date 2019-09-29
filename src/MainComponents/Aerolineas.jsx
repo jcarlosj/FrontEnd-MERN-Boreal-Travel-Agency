@@ -4,9 +4,13 @@ import '../App.css';
 import Background from '../components/Background';
 import Footer from '../components/Foooter';
 import '../public/styles/aerolinea.css';
+import '../public/styles/pais.css';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+
+import '../public/styles/backgroundImageStyle.css';
+import '../public/styles/gridStandard.css';
 
 // Jquery se importa antes que el spinner
 import $ from 'jquery';
@@ -85,19 +89,25 @@ export class Aerolineas extends Component {
 		});
 	};
 
-	buscarVuelos = async ( e ) => {
+	buscarVuelos = async (e) => {
 		// Aquí va la logica de envio del formulario
-	}
+	};
 
 	render() {
 		return (
 			<div className="App">
-				<div className="App-Box">
-					<Background />
+				<div className="">
+					<div className="background-header-img mainGrid">
+						<img
+							src={require('../public/imagenes/gotemburgo_alvsborgsbron.jpg')}
+							width="100%"
+							alt="Boreal main"
+						/>
+					</div>
 				</div>
 				<div className="App-Box">
 					<section className="container">
-						<form onSubmit={ this .buscarVuelos }>
+						<form onSubmit={this.buscarVuelos}>
 							<div className="row">
 								<div className="col-12 col-lg-6 mt-3">
 									<label>Origen</label>
@@ -161,13 +171,70 @@ export class Aerolineas extends Component {
 									{/* </div> */}
 								</div>
 								<div className="col-12  mt-3">
-									<button  type="submit" className="btn btn-primary btn-block">
+									<button type="submit" className="btn btn-primary btn-block">
 										Buscar Vuelos
 									</button>
 								</div>
 							</div>
 						</form>
 					</section>
+				</div>
+				<div className="App-Box">
+					{/* Datos de paises */}
+					<div className="container">
+						<div className="row pais-info">
+							<div className="col-lg-7">
+								<div className="row">
+									<div className="col-12">
+										<img
+											className="img-fluid"
+											src={require('../public/imagenes/islandia1.png')}
+											alt="paisaje-islandia"
+										/>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-5">
+								<div className="row">
+									<div className="col-12 my-4 my-xl-5">
+										<h1 className="titulo-pais text-center">Islandia</h1>
+									</div>
+									<div className="col-12">
+										<div className="row row-lateral mt-xl-4 background-pais">
+											<div className="col-12 col-sm-6 text-center">
+												<img
+													className="img-fluid"
+													src={require('../public/imagenes/islandia-map.png')}
+													alt="mapa-islandia"
+												/>
+											</div>
+											<div className="col-12 col-sm-6 align-self-center">
+												<p className="mt-3">
+													Superficie: 103.000 Km2 <br />
+													Idioma Oficial: Islandés <br />
+													Población Total: 357.050 Habitantes <br />
+													Moneda: Corona islandesa <br />
+													Uso horario: GMT (UTC+0) <br />
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-12">
+								<div className="row">
+									<div className="col-12 col-lg-8">
+										<p className="mt-3">
+											La cultura de Islandia es el conjunto de manifestaciones culturales de la
+											sociedad islandesa tanto en la isla como en otros países. Uno de sus pilares
+											son las Sagas de los islandeses, que contienen un a importante parte de la
+											historia de la isla.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div className="App-Box">

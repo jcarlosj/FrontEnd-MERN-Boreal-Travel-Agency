@@ -4,7 +4,7 @@ import "../public/scripts/scriptsHoteles/carrusel"
 
 function HotelDinamarca() {
     return (
- 
+        <div className='App'>
         <section className="details-card">
         <div className="container">
             <div className="row">
@@ -43,7 +43,7 @@ function HotelDinamarca() {
         
         </div>
     </section>
-
+    </div>
       
     )
 }

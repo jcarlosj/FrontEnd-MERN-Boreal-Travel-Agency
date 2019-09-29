@@ -1,16 +1,18 @@
 import React from 'react'
 import "../public/styles/carrusel.css"
 import "../public/scripts/scriptsHoteles/carrusel"
+import "../App.css"
+
 function HotelIslandia() {
     return (
-
+        <div className='App'>
         <section class="details-card">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src={require("../public/imagenes/hoteles/dinamarca/fachada2-hotel.jpg")} alt="FACAHADA"/>
+                            <img src={require("../public/imagenes/hoteles/islandia/fachada2-hotel.jpg")} alt="FACAHADA"/>
                       
                         </div>
                        
@@ -19,7 +21,7 @@ function HotelIslandia() {
                 <div class="col-md-4">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src={require("../public/imagenes/hoteles/dinamarca/holl2.jpg")} alt="HALL"/>
+                            <img src={require("../public/imagenes/hoteles/islandia/holl2.jpg")} alt="HALL"/>
                            
                         </div>
                         <div class="card-desc">
@@ -32,7 +34,7 @@ function HotelIslandia() {
                 <div class="col-md-4">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src={require("../public/imagenes/hoteles/dinamarca/habitacion4.jpg")} alt="room"/>
+                            <img src={require("../public/imagenes/hoteles/islandia/habitacion4.jpg")} alt="room"/>
                          
                         </div>
                        
@@ -43,6 +45,7 @@ function HotelIslandia() {
         </div>
     
         </section>
+        </div>
        
     )
 }

@@ -5,7 +5,7 @@ function MejorViaje() {
     return (
         <div className="backgroundImage">
             <div className="elements">
-                <div><h1>Este viaje será el mejor</h1></div>
+                <div><h1 style={{"color": "white"}}>Este viaje será el mejor</h1></div>
                 <div><p>
                         Viajar debe ser una parte integral de la vida de cada persona. En cada viaje, puede hacer nuevos conocidos,
                         nuevos amigos, socios comerciales. Gracias a viajar, creces, vas a un nuevo nivel de desarrollo personal.

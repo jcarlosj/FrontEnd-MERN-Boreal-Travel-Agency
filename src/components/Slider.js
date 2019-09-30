@@ -35,7 +35,7 @@ function Slider() {
                                     <div className="mask rgba-black-strong"></div>
                                 </div>
                                 <div className="carousel-caption">
-                                    <h1 className="h1-responsive"> Descubre atardeceres</h1>
+                                    <h1 className="h1-responsive" style={{"color":"white"}}> Descubre atardeceres</h1>
                                     <p>Para encontrarte contigo mismo</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function Slider() {
                                     <div className="mask rgba-black-slight"></div>
                                 </div>
                                 <div className="carousel-caption">
-                                    <h1 className="h1-responsive">Descubre lagos y los mejores paisajes</h1>
+                                    <h1 className="h1-responsive" style={{"color":"white"}}>Descubre lagos y los mejores paisajes</h1>
                                     <p>Siempre seguro de tener una experiencia inolvidable</p>
                                 </div>
                             </div>

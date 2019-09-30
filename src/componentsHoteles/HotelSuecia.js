@@ -5,21 +5,21 @@ import "../App.css"
 
 function HotelSuecia() {
     return (
-        <div className='App'>
+        <div style={{"marginTop":"30px"}}>
         <section class="details-card">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src={require("../public/imagenes/hoteles/suecia/fachada1-hotel.jpg")} alt="FACHADA"/>
+                            <img src={require("../public/imagenes/hoteles/suecia/fachada1-hotel.jpg")} alt="FACHADA" width="100%"/>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src={require("../public/imagenes/hoteles/suecia/holl1.jpg")} alt="HALL"/>
+                            <img src={require("../public/imagenes/hoteles/suecia/holl1.jpg")} alt="HALL" width="100%"/>
                            
                         </div>
                         <div class="card-desc">
@@ -31,7 +31,7 @@ function HotelSuecia() {
                 <div class="col-md-4">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src={require("../public/imagenes/hoteles/suecia/habitacion1.jpg")} alt="ROOM"/>
+                            <img src={require("../public/imagenes/hoteles/suecia/habitacion1.jpg")} alt="ROOM" width="100%"/>
                          
                         </div>
                         </div>

@@ -4,14 +4,14 @@ import "../public/scripts/scriptsHoteles/carrusel"
 
 function HotelDinamarca() {
     return (
-        <div className='App'>
+        <div style={{"marginTop":"30px"}}>
         <section className="details-card">
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
                     <div className="card-content">
                         <div className="card-img">
-                            <img src={require("../public/imagenes/hoteles/dinamarca/fachada3-hotel.jpg")} alt="FACHADA"/>
+                            <img src={require("../public/imagenes/hoteles/dinamarca/fachada3-hotel.jpg")} alt="FACHADA" width="100%"/>
                       
                         </div>
                        
@@ -20,7 +20,7 @@ function HotelDinamarca() {
                 <div className="col-md-4">
                     <div className="card-content">
                         <div className="card-img">
-                            <img src={require("../public/imagenes/hoteles/dinamarca/holl4.jpg")} alt="HALL"/>
+                            <img src={require("../public/imagenes/hoteles/dinamarca/holl4.jpg")} alt="HALL" width="100%"/>
                            
                         </div>
                         <div className="card-desc">
@@ -33,7 +33,7 @@ function HotelDinamarca() {
                 <div className="col-md-4">
                     <div className="card-content">
                         <div className="card-img">
-                            <img src={require("../public/imagenes/hoteles/dinamarca/habitacion3.jpg")} alt="ROOM"/>
+                            <img src={require("../public/imagenes/hoteles/dinamarca/habitacion3.jpg")} alt="ROOM" width="100%"/>
                          
                         </div>
                        

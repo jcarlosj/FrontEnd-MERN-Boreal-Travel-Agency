@@ -33,11 +33,11 @@ function NavBarra() {
                             <Link to='/hoteles' className="nav-link">HOTELES</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/paquetes' className="nav-link">PAQUETES</Link>
+                            <Link to='/paquetes' className="nav-link">PLANES</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link to='/tiquetes' className="nav-link">MIS TIQUETES</Link>
-                        </li>
+                        </li> */}
                     </ul>
                     <Link className="my-2 my-sm-0 mr-4" to="/login"><svg className="icono-nav"
                             xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24">

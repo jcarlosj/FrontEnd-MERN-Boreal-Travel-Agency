@@ -21,9 +21,7 @@ export default class ListarVuelos extends Component {
         // Almacena los datos en el Estado de la Aplicación del Componente
         this.setState({
             vuelos: vuelos.data
-        });
-
-        
+        });  
     }
 
     // Método: Envia datos al API al hacer doble click sobre el elemento de la lista (DELETE)
@@ -68,8 +66,6 @@ export default class ListarVuelos extends Component {
                         }
                     </tbody>
                 </table>
-
-                
             </div>
         )
     }

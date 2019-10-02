@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
 import '../App.css';
-import Background from '../components/Background';
 import Footer from '../components/Foooter';
 import '../public/styles/aerolinea.css';
 import '../public/styles/pais.css';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-
+import Asientos from "../Asientos";
 import '../public/styles/backgroundImageStyle.css';
 import '../public/styles/gridStandard.css';
 
@@ -179,6 +178,7 @@ export class Aerolineas extends Component {
 						</form>
 					</section>
 				</div>
+				<Asientos></Asientos>
 				<div className="App-Box">
 					{/* Datos de paises */}
 					<div className="container">
@@ -236,6 +236,7 @@ export class Aerolineas extends Component {
 						</div>
 					</div>
 				</div>
+				
 
 				<div className="App-Box">
 					{' '}
